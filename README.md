@@ -1,2 +1,2 @@
 # ReactNative_mapApp
-call Google Map API in Web plateform
+call Google Map API in Web platform
