@@ -9,6 +9,12 @@ call Google Map API in Web platform
  
  Automatic Updates
  
+ // app.json
+ 
+    "updates": {
+        "fallbackToCacheTimeout": 0 }
+ 
+
 By default, Expo apps check for an updated bundle every time the app is launched. 
 
 Previously, all Expo Android apps loaded updates in the background, while iOS apps defaulted to updating synchronously during launch. Starting in SDK 26, Expo developers can configure apps to automatically load updates synchronously (with a specific timeout) or asynchronously (with 0 timeout). 
